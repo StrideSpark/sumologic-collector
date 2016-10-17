@@ -1,0 +1,22 @@
+{
+  "api.version": "v1",
+  "sources": [
+    {
+      "name": "Docker-logs",
+      "category": "docker",
+      "automaticDateParsing": true,
+      "multilineProcessingEnabled": true,
+      "useAutolineMatching": true,
+      "forceTimeZone": false,
+      "filters": [],
+      "cutoffTimestamp": 0,
+      "encoding": "UTF-8",
+      "allContainers": true,
+      "collectEvents": true,
+      "certPath": "",
+      "uri": "unix:///var/run/docker.sock",
+      "specifiedContainers": [],
+      "sourceType": "DockerLog"
+    }
+  ]
+}
